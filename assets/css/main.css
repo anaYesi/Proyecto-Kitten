@@ -1,0 +1,17 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url("../img/Copia de Landscape.jpg");
+}
+@media (min-width: 535px) and (max-width: 824px) {
+	body{
+		background-image: url("../img/Copia de dawn.png");
+	}
+}
+@media (min-width: 200px) and (max-width: 534px) {
+	body{
+		background-image: url("../img/Copia de dawn.png");
+	}
+}
