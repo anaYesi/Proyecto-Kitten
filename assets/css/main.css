@@ -3,15 +3,28 @@
 	margin: 0px;
 }
 body{
-	background-image: url("../img/Copia de Landscape.jpg");
+	background-image: url("../img/Copia de dawn.png");
 }
-@media (min-width: 535px) and (max-width: 824px) {
+img{
+	display: block;
+	position: absolute; 
+	/*margin: 0 auto;*/
+	bottom: 10%;
+	width: 50%;
+	left: 30%;
+}
+@media (min-width: 936px) and (max-width: 1200px) {
+	body{
+		background-image: url("../img/Copia de Landscape.jpg");
+	}
+}
+@media (min-width: 604px) and (max-width: 935px) {
 	body{
 		background-image: url("../img/Copia de dawn.png");
 	}
 }
-@media (min-width: 200px) and (max-width: 534px) {
+@media (min-width: 100px) and (max-width: 603px) {
 	body{
-		background-image: url("../img/Copia de dawn.png");
+		background-image: url("../img/Copia de maxresdefault.jpg");
 	}
 }
